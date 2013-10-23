@@ -1,7 +1,12 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 gem 'rails', '3.2.14'
-gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -14,6 +19,7 @@ gem 'devise'
 gem 'figaro'
 gem 'rolify'
 gem 'simple_form'
+gem "heroku"
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
