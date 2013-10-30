@@ -1,4 +1,5 @@
-<%= link_to "Tourspedia", root_path, :class => 'brand' %>
+<%= link_to(image_tag("/assets/solaris_logo.png", :alt => "home image", :width => 100, :height => 100, :title => "Click here to return to Home"), root_path, :class => 'brand')%>
+
 <ul class="nav">
   <% if user_signed_in? %>
     <li>
