@@ -24,4 +24,9 @@
     <%= link_to 'Sign up', new_user_registration_path %>
     </li>
   <% end %>
-</ul>
+  </ul>
+<% if user_signed_in? %>
+  <font class="pull-right" color="FB9932">
+  Logged-in as: <%= current_user.name %>
+  </font>
+<% end %>
