@@ -1,8 +1,10 @@
 ---
+solaris_logo.png: solaris_logo-e85bc2a920f5f2a5129e3c73399edc1e.png
+solaris_logo/index.png: solaris_logo-e85bc2a920f5f2a5129e3c73399edc1e.png
 application.js: application-d332b150b4b37d1e130a9b4365276d56.js
 application/index.js: application-d332b150b4b37d1e130a9b4365276d56.js
-application.css: application-a14f28ca1cdb37a05b4c1a32bc739632.css
-application/index.css: application-a14f28ca1cdb37a05b4c1a32bc739632.css
+application.css: application-fb9f88bd02487c0c9d98a940c031856d.css
+application/index.css: application-fb9f88bd02487c0c9d98a940c031856d.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
